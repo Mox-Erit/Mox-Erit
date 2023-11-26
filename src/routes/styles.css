@@ -1,14 +1,60 @@
 :root{
     --ivory: #FAF9F1;
-}
+    --parchment: #e7dcbe;
+    --light-parch: #f5eedb;
+    --black: #313131;
+    --tech-orange: #e57d43;
+    --brown: #241b22;
 
+    --yellow: #EBA93D;
+    --auburn: #9a2c28;
+    --teal: #87c0af;
+}
+:global(html) {
+    scroll-behavior: smooth;
+  }
+* {
+    box-sizing: border-box; 
+}
+@font-face {
+    font-family: 'Goth-Bold';
+    font-style: normal;
+    font-weight: 500;
+    src: local('ITC Avant Garde Gothic Bold'), url('/fonts/ITC Avant Garde Gothic Bold.otf') format('opentype');
+  
+}
+@font-face {
+    font-family: 'Goth-Med';
+    font-style: normal;
+    font-weight: 300;
+    src: local('ITC Avant Garde Gothic Medium'), url('/fonts/ITC Avant Garde Gothic Medium.otf') format('opentype');
+  
+}
 body {
-    /* min-height: 100vh; */
+    font-family: 'Goth-Bold', sans-serif;
+    font-weight: 500;
+    background: var(--light-parch);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
 }
-
 h1 {
     margin: 0;
 }
 h2 {
     margin: 0;
 }
+
+/* NAV */
+/* CONTENT */
+
+aside {
+    flex: 1 0 30%;
+    flex-direction: column;
+    min-height: 0px;
+}
+header, footer, nav, aside {
+    padding: 1.5rem;
+  }

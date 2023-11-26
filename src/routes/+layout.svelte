@@ -1,28 +1,30 @@
 <script>
-    import Nav from './Nav.svelte';
-    import Menu from './Menu.svelte';
+    import { fade } from 'svelte/transition';
     import './styles.css';
+    import { page } from '$app/stores';
+    import SideMenu from './SideMenu.svelte';
+    import Nav from './Nav.svelte';
 </script>
-
-<div>
+<svelte:head>
+    <title>{$page.url.pathname.replaceAll('-', ' ')}</title>
+</svelte:head>
+<aside>
+	<SideMenu />
+</aside>
+<main in:fade>
     <Nav />
+    <slot />
+</main>
 
-    <Menu />
 
-    <main>
-        <slot />
-    </main>
-</div>
+
+   
+
 
 <style>
-    main {
-        width: 85%;
-        height: 90%;
-        /* background-color: var(--ivory); */
-        background-color: grey;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        display: flex;   
-    }
+main {
+  overflow-y: auto;
+  flex: 0 1 70%;
+
+}
 </style>
