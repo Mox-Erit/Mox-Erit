@@ -12,7 +12,7 @@
         <SideMenu />
     </aside> -->
 <main in:fade>
-    <Nav />
+    <Nav  />
 
     <slot />
 </main>

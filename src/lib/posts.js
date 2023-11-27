@@ -23,4 +23,12 @@ export const posts = [
     image: '../images/example.webp',
     imageDesc: 'Example Image',
     },
+    {
+      slug: 'Livestock-Search',
+      title: 'Livestock Search Repository',
+      clientDesc:'Department of Livestock',
+      content:'This is some content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
+      image: '../images/example.webp',
+      imageDesc: 'Example Image',
+    },
   ];

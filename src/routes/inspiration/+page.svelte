@@ -1,55 +1,52 @@
-<script>
-    import Icon from '../../Icon.svelte';
-</script>
 <svelte:head>
     <title>Gallery</title>
     <meta name="description" content="Get to know more about me and my process, or don't. You have free will and I would like to remind you of that." />
 </svelte:head>
-<div id="left-menu">
-    <div id="left-menu-inner">
-        <div class="top-area">           
-            <h1><Icon name="test1" />Gallery</h1>
-            <span><Icon name="test2" />Collection of my stamps and 3D models</span>
-            <br />
-            <span><Icon name="test1" /><Icon name="test1" /></span>
-            <div class='text-block'></div>
-            <span style="margin-top: 0.1em;"><Icon name="test1" /></span>
-        </div>
-        <div class="mid-area">
-            <span><b>MODEL</b><span style="margin-left: 2em;">311202</span></span>
-            <span><b>SERIAL</b><span style="margin-left: 1em;">00000026</span></span>
-        </div>
-        <div class="bot-area">
-            <div class="caution-box">
 
-            </div>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-    </div> 
+<h1>Inspiration</h1>
+<div class="page-wrapper">
+    <div class="accessibility-page">
+
+        <!-- <img  class="banner" src="" alt=""> -->
+
+        <div class="line"></div>
+        <!-- <p>https://livestock.com</p> -->
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quaerat inventore eum maiores, alias vero corrupti minima sint laborum quasi exercitationem corporis repudiandae veritatis iusto vel voluptatem obcaecati id rem?</article>
+    </div>
 </div>
 
-<main class="content">
-    
-</main>
-
 <style>
-    .text-block {
-        height: 9em;
-        width: 6em;
-        border: 2px solid black;
-    }
-
-    .caution-box {
-        height: 6em;
-        width: 12em;
-        border: 2px solid black;
-    }
-
-    .content {
-        display: flex;
-        flex-direction: row;
-    }
+ h1 {
+    margin: 2rem 2rem 0rem 2rem;
+    margin-top: 10vh;
+    font-family: 'Goth-Med';
+    color: var(--brown);
+    opacity: 90%;
+}
+p {
+    
+}
+article {
+    padding: 0 0.2em;
+    font-family: 'Goth-Med';
+    word-wrap: break-word;
+    opacity: 90%;
+    display: flex;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    color: var(--brown);
+    margin: 1em 0;
+}
+.accessibility-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.page-wrapper { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1.5rem;
+}
 </style>

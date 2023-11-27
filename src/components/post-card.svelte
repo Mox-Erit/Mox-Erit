@@ -27,15 +27,14 @@
 		justify-content: start;
 		flex-direction: column;
 		flex: 1;
-		width: 100%;
 	}
 	
 	title {
-		margin: 1.2em 0.8em 0.8em 0.8em;
+		margin: 1.4em 0.8em 0.4em 0.8em;
 		display: flex;
 		color: var(--parchment);
 		background-color: var(--black);
-		padding: 0.3em 1.5em;
+		padding: 0.4em 1em;
 		border: 1px solid var(--black);
 		border-radius: 25px;
 	}

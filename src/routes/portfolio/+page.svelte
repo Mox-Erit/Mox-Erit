@@ -1,5 +1,6 @@
 <script>
 		import PostCard from '../../components/post-card.svelte';
+		import { fade } from 'svelte/transition';
 		export let data;
 </script>
 
@@ -10,8 +11,9 @@
 
 
 
-<h1>Projects</h1>
-<div class="portfolio-items-wrap">
+<h1 in:fade>Projects</h1>
+<div class="portfolio-items-wrap" in:fade>
+
 	{#each data.posts as post}
 		<a href='portfolio/{post.slug}' class="portfolio-item">
 			<PostCard {...post}/>
@@ -23,15 +25,19 @@
 
 <style>
 	h1 {
-		margin-bottom: 1rem;
-		color: var(--black);
+		margin: 2rem 2rem 0rem 2rem;
+		margin-top: 10vh;
+		font-family: 'Goth-Med';
+		color: var(--brown);
+		opacity: 90%;
 	}
 	.portfolio-items-wrap {
 		padding: 1.5rem;
 		display: flex;
 		flex-direction: column;
-		margin-top: 10vh;
-		overflow-y: scroll;
+		height: 100%;
+		margin: auto;
+		width: 100%;
 	}
 	.portfolio-item:hover {
 		transition: all 0.2s ease-in-out;
@@ -42,27 +48,26 @@
 		display: flex;
 		width: 100%;
 		background: var(--parchment);
-		margin-bottom: 2rem;
-		min-height: 15vh;
+		margin-bottom: 4rem;
+		min-height: 42vh;
 		box-shadow: 0em 0.2em 0.7em 0 var(--brown);
 	}
 	@media (min-width: 905px) {
 	.portfolio-items-wrap {
-		gap: 3rem;
 		padding: 1.5rem;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
 		margin-top: 10vh;
-		overflow-y:unset;
 	}
 	.portfolio-items-wrap > a {
-		flex: 40%;
+		flex: 30%;
+		margin: 3em;
 	}
 	.portfolio-item {
 		border-radius: 50px;
 		display: flex;
-		width: 100%;
+		
 		background: var(--parchment);
 		margin-bottom: 1rem;
 		min-height: 15vh;

@@ -8,8 +8,8 @@
         display: flex;
         text-align: center;
         margin: auto;
-        rotate: -3deg;
-        border-radius: 50px;
+        rotate: 14deg;
+        border-radius: 50%;
         height: auto;
         width: 10em;
     }

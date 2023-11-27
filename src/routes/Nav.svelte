@@ -23,9 +23,6 @@
             <li aria-current={$page.url.pathname === '/accessibility' ? 'page' : undefined}>
                 <a href="/accessibility">Accessibility</a>
             </li>
-            <li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
-                <a href="/contact">Contact</a>
-            </li>
             <li aria-current={$page.url.pathname === '/inspiration' ? 'page' : undefined}>
                 <a href="/inspiration">Inspiration</a>
             </li>
@@ -53,7 +50,7 @@
         background-color: var(--black);
         overflow: hidden;
         max-height: 0;
-        transition: max-height .3s ease-out;
+        transition: max-height .15s ease-out;
     } 
     .menu a {
     display: block;
@@ -115,7 +112,7 @@
     } /* Hide checkbox */
     /* Toggle menu icon */
     .side-nav:checked ~ nav{
-        max-height: 460px;
+        max-height: 368px;
         
     }
     .side-nav:checked ~ .hamb .hamb-line {

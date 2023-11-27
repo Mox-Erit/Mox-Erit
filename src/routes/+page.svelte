@@ -1,6 +1,7 @@
 <script>
 	// @ts-ignore
 	import Chase from '../components/chase.svelte';
+	import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
@@ -8,7 +9,7 @@
 	<meta name="description" content="Chase's portfolio site" />
 </svelte:head>
 
-<article class="home-article">
+<article class="home-article" in:fade>
 		<div class="container">
 			<a href="#" class="logo"><Chase/></a>
 			<h1 class="name">Chase Alber</h1>
@@ -17,7 +18,7 @@
 		</div>
 		<div class="container-about">
 			<h2>About me</h2>
-			<p>From licking stamps to directing statewide projects, I enjoy a wide range of passions. <br> <br> Web accessibility is one of my most passionate - from Section 508 to AAA WCAG 2.2 standards. <br> <br> This site contains best practices I employ, inspirations, and my proudest works. <br> <br> I am currently available for consulting or employent oppurtunites. </p>
+			<p>From licking stamps to directing statewide projects, I enjoy a wide range of passions. <br> <br> <br> Web accessibility is one of my most passionate - from Section 508 to AAA WCAG 2.2 standards. <br> <br> <br> This site contains best practices I employ, inspirations, and my proudest works. </p>
 		</div>
 </article>
 
@@ -37,46 +38,56 @@
 		min-height: 30vh;
 		padding: 1rem;
 		border-radius: 25px;
-		margin-bottom: 5vh;
+		margin-bottom: 1em;
 	}
 	.container > h1 {
+
 		margin: 0.2em;
 	}
 	.container > p {
 
 		margin-top: 0.5em;
-		
+
 	}
 	.container-about {
-		box-shadow: 0px -3px 6px 0px var(--brown);
-		background-color: var(--black);
 		align-self: center;
 		text-align: center;
 		height: 60vh;
-		padding: 1rem;
+		padding: 2rem 0rem;
 		margin-bottom: 2rem;
 	}
 	.container-about > h2 {
-		margin: 0.5em;
+		padding: 0.5em 0;
+		margin: 0em 2em;
+		background-color: var(--black);
+		border-radius: 25px;
 		color: var(--light-parch);
 	}
 	.container-about > p {
-		margin: 2em 0.2em;
-		padding: 1em;
-		color: var(--black);
-		border-radius: 25px;
-		background-color: var(--light-parch);
-		box-shadow: 0px 4px 12px 2px var(--brown);
+		margin: 2em 0.8em;
+		padding: 1.5em;
+		word-wrap: break-word;
+		color: var(--brown);
+		opacity: 90%;
 	}
 	.name {
 		font-size: 2.4rem;
-		
+		color: var(--brown);
+		opacity: 90%;
 	}
 	.slogan {
 		font-size: 1em;
 		font-weight: 300;
+		font-family: 'Goth-Med';
+		color: var(--brown);
+		opacity: 90%;
 	}
 
+	.location {
+		font-family: 'Goth-Med';
+		color: var(--brown);
+		opacity: 90%;
+	}
 	@media (min-width: 905px) {
 		.home-article {
 			margin-top: 10vh;
@@ -86,7 +97,7 @@
 			background-color: var(--black);
 			align-self: center;
 			text-align: center;
-			max-height: 30vh;
+			max-height: 35vh;
 			padding: 1rem;
 			border-radius: 50px;
 			margin-bottom: 2rem;
