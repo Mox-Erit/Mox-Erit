@@ -10,8 +10,9 @@
     $: path = $page.url.pathname;
 </script>
 
-<div class="aside-container">
 
+
+<div class="aside-container">
     <div class="item-top">
         <div class="item-top-left">
             <button onclick="history.back()"><Vert/><LeftArrow/></button>
@@ -24,6 +25,10 @@
 
 
 <style>
+.aside-container {
+    position: absolute;
+    top: 84px;
+}
 .item-top {
    transition: all 0.2s ease-in-out;
    box-shadow: 0em 0em 0.7em 0.1em var(--brown);

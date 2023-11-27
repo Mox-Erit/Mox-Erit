@@ -8,11 +8,12 @@
 <svelte:head>
     <title>{$page.url.pathname.replaceAll('-', ' ')}</title>
 </svelte:head>
-<aside>
-	<SideMenu />
-</aside>
+    <!-- <aside>
+        <SideMenu />
+    </aside> -->
 <main in:fade>
     <Nav />
+
     <slot />
 </main>
 
@@ -24,7 +25,5 @@
 <style>
 main {
   overflow-y: auto;
-  flex: 0 1 70%;
-
 }
 </style>
