@@ -15,11 +15,22 @@
 			<h1 class="name">Chase Alber</h1>
 			<p class="slogan">Full-Stack Engineer | UI/UX Designer</p>
 			<p class="location">Helena, Montana</p>
+			<div class="container-about">
+				<h2>About me</h2>
+				<p>From licking stamps to directing statewide projects, I enjoy a wide range of passions. <br> <br> <br> Web accessibility is one of my most passionate - from Section 508 to AAA WCAG 2.2 standards. <br> <br> <br> This site contains best practices I employ, inspirations, and my proudest works. </p>
+			</div>
 		</div>
-		<div class="container-about">
-			<h2>About me</h2>
-			<p>From licking stamps to directing statewide projects, I enjoy a wide range of passions. <br> <br> <br> Web accessibility is one of my most passionate - from Section 508 to AAA WCAG 2.2 standards. <br> <br> <br> This site contains best practices I employ, inspirations, and my proudest works. </p>
+		<div class="container">
+			<a href="#" class="logo"><Chase/></a>
+			<h1 class="name">Chase Alber</h1>
+			<p class="slogan">Full-Stack Engineer | UI/UX Designer</p>
+			<p class="location">Helena, Montana</p>
+			<div class="container-about">
+				<h2>About me</h2>
+				<p>From licking stamps to directing statewide projects, I enjoy a wide range of passions. <br> <br> <br> Web accessibility is one of my most passionate - from Section 508 to AAA WCAG 2.2 standards. <br> <br> <br> This site contains best practices I employ, inspirations, and my proudest works. </p>
+			</div>
 		</div>
+		
 </article>
 
 
@@ -90,11 +101,15 @@
 	}
 	@media (min-width: 905px) {
 		.home-article {
-			margin-top: 10vh;
-		}
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10vh;
+	}
 		.container-about {
-			width: 30vw;
-			background-color: var(--black);
+			margin: 0 auto;
+			width: 100%;
 			align-self: center;
 			text-align: center;
 			max-height: 35vh;
@@ -107,11 +122,11 @@
 		color: var(--ivory);
 		}
 		.container-about > p {
-			margin: 1em;
-			padding: 1em;
+			margin: 0.5em auto;
+			padding: 0.5em;
 			color: var(--black);
 			border-radius: 25px;
-			background-color: var(--light-parch);
+			width: 100%;
 		}
 	}
 </style>

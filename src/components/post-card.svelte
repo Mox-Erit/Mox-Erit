@@ -16,16 +16,16 @@
 
 <style>
 	img {
-		border-top-right-radius: 50px;
 		border-top-left-radius: 50px;
-		width: 100%;
-		height: auto;
+		border-bottom-left-radius: 50px;
+		width: auto;
+		height: 100%;
 	}
 	.portfolio-item {
 		display: flex;
 		align-items: start;
 		justify-content: start;
-		flex-direction: column;
+		flex-direction: row;
 		flex: 1;
 	}
 	

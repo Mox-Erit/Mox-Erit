@@ -35,7 +35,6 @@
 		padding: 1.5rem;
 		display: flex;
 		flex-direction: column;
-		height: 100%;
 		margin: auto;
 		width: 100%;
 	}
@@ -58,16 +57,15 @@
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
-		margin-top: 10vh;
+
 	}
 	.portfolio-items-wrap > a {
-		flex: 30%;
-		margin: 3em;
+		height: 1em;
+		margin: 1em;
 	}
 	.portfolio-item {
 		border-radius: 50px;
 		display: flex;
-		
 		background: var(--parchment);
 		margin-bottom: 1rem;
 		min-height: 15vh;
