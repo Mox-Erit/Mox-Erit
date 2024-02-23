@@ -2,8 +2,8 @@
 
 ## My name is Chase and I am a Lead Software Engineer with the State of Montana
 
-# MY TECH
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,svelte,elixir,erlang)](https://skillicons.dev)
+# WHAT I LOVE TO USE
+[![My Skills](https://skillicons.dev/icons?i=js,ts,jquery,html,css,svelte,react,elixir,solidity,kubernetes,docker,kafka,postgres,blender,)](https://skillicons.dev)
 
 <!--
 **Mox-Erit/Mox-Erit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
