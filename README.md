@@ -1,4 +1,4 @@
-## Merhaba and welcome! 🧿
+# 🧿 Merhaba and welcome! 🤟
 
 ### My name is Chase and I am a Lead Software Engineer with the State of Montana
 
