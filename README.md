@@ -2,7 +2,11 @@
 
 My name is Chase and I am a Lead Software Engineer with the State of Montana
 
-## 🛠 The tools and languages I use
+## 🛠 Get to know me
+-- 🖱 Lead Software Engineer with the <a href="https://mt.gov/">State of Montana</a> 
+
+
+## 🛠 My tools of the trade
 [![My Skills](https://skillicons.dev/icons?i=js,ts,jquery,html,css,svelte,react,elixir,solidity,kubernetes,docker,kafka,postgres,blender,)](https://skillicons.dev)
 
 <!--
