@@ -1,8 +1,8 @@
-## 🧿 Merhaba and welcome! 🤟
+# 🧿 Merhaba and welcome! 🤟
 
-# My name is Chase and I am a Lead Software Engineer with the State of Montana
+My name is Chase and I am a Lead Software Engineer with the State of Montana
 
-# WHAT I LOVE TO USE
+## WHAT I LOVE TO USE
 [![My Skills](https://skillicons.dev/icons?i=js,ts,jquery,html,css,svelte,react,elixir,solidity,kubernetes,docker,kafka,postgres,blender,)](https://skillicons.dev)
 
 <!--
