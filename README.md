@@ -17,16 +17,16 @@
 - Lead the development of <a href="https://liv.mt.gov/Brands-Enforcement/Find-a-brand-inspector">Department of Livestock Brand Inspector</a> search page for our citizens. Really got to enjoy making an accessible search repository using DataTables jQuery and Cascade CMS.
 
 
-## 🛠 My tools of the trade
-
-[![My Skills](https://skillicons.dev/icons?i=js,ts,jquery,html,css,svelte,react,elixir,solidity,kubernetes,docker,postgres,blender,)](https://skillicons.dev)
-
-
 ## 😄 What I am currently working on
 
 - Threlte (Svelte + Three.JS) website for eCommerce customization of products.
 - AI co-pilot for recreational sailors in navigating global maritime laws, procedures, and policies. (Elixir + Axon)
 - Re-working my portfolio website for the 32nd time
+
+
+## 🛠 My tools of the trade
+
+[![My Skills](https://skillicons.dev/icons?i=js,ts,jquery,html,css,svelte,react,elixir,solidity,kubernetes,docker,postgres,blender,)](https://skillicons.dev)
 <!--
 **Mox-Erit/Mox-Erit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
