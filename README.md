@@ -4,9 +4,10 @@
 
 
 ## 🛠 Get to know me
-🌎 I have worked in federal, state, and private sectors across multiple industries!
-🎨 Self-taught software developer, 3D artist, and prop maker.
-📷 My profie picture is the John Hancock Building (former name) located in Chicago, Illinois. I have yet to visit it, but I hope so soon!
+
+- I have worked in federal, state, and private sectors across multiple industries!
+- Self-taught software developer, 3D artist, and prop maker.
+- My profie picture is the John Hancock Building (former name) located in Chicago, Illinois. I have yet to visit it, but I hope so soon!
 
 
 ## 🏆 Projects from my current job
@@ -17,6 +18,7 @@
 
 
 ## 🛠 My tools of the trade
+
 [![My Skills](https://skillicons.dev/icons?i=js,ts,jquery,html,css,svelte,react,elixir,solidity,kubernetes,docker,postgres,blender,)](https://skillicons.dev)
 
 
