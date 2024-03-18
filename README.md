@@ -12,7 +12,7 @@
 
 ## 🏆 Projects from my current job
 
-- Re-build of <a href="https://lmi.delaware.gov/">LMI Delaware</a> onto our Cascade CMS enviornment from Wordpress.
+- Re-build of <a href="https://lmi.delaware.gov/">Labor Market Index Delaware</a> onto our Cascade CMS enviornment from Wordpress. Extensive rewrite of React, addition of 508 accessibility, and Tableau.
 - Conversion of Montana's state homepage <a href="https://mt.gov/">mt.gov</a> from a .NET stack hosted on GitLab to our Cascade CMS stack which utilizes Apache Velocity, jQuery, and SCSS.
 - Lead the development of <a href="https://liv.mt.gov/Brands-Enforcement/Find-a-brand-inspector">Department of Livestock Brand Inspector</a> search page for our citizens. Really got to enjoy making an accessible search repository using DataTables jQuery and Cascade CMS.
 
