@@ -11,14 +11,14 @@ Re-build of <a href="https://lmi.delaware.gov/">Labor Market Index Delaware</a> 
 
 Conversion of Montana's state homepage <a href="https://mt.gov/">mt.gov</a> from a .NET stack hosted on GitLab to our Cascade CMS stack which utilizes Apache Velocity, jQuery, and SCSS.
 
-Lead the development of <a href="https://liv.mt.gov/Brands-Enforcement/Find-a-brand-inspector">Department of Livestock Brand Inspector</a> search page for our citizens. Really got to enjoy making an accessible search repository using DataTables jQuery and Cascade CMS.
+Lead the development of <a href="https://liv.mt.gov/Brands-Enforcement/Find-a-brand-inspector">Department of Livestock Brand Inspector</a> search page for our citizens. Creating an accessible search repository using DataTables jQuery and Cascade CMS.
 
 
 ## What I am currently working on
 
-A Threlte template (Svelte + Three.JS) website for eCommerce customization of products. With a focus on accessibility, unique presentation, and snappy interactions.
+A Threlte (Svelte + Three.JS) template site for eCommerce customization of products. With a focus on accessibility, unique presentation, and snappy interactions.
 
-AI co-pilot for recreational sailors in navigating global maritime laws, procedures, and policies. (Elixir + Axon)
+AI co-pilot (Elixir + Axon) for sailors in navigating global maritime laws, common sailing procedures, and use of safety measures. I am scaling this project with my custom made RC vehicles to eventually be used on larger vessels.  
 
 
 ## My tools
