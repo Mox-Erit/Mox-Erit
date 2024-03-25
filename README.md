@@ -1,4 +1,4 @@
-# Ahoy! My name is Chase (not the bank) and I love to tinker
+# Ahoy! My name is Chase (not the bank)
 
 Currently I work as a Lead Software Engineer with the <a href="https://mt.gov/">State of Montana</a>. 
 
