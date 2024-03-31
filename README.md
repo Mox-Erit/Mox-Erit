@@ -5,6 +5,8 @@ Currently I work as a Lead Software Engineer with the <a href="https://mt.gov/">
 In the past I have been fortunate to be able to have worked in federal, state, and private sectors across multiple industries! This has led me to be able to take on all kinds of challenges and unique roles.
 
 
+
+
 ## Projects from my current job
 
 Re-build of <a href="https://lmi.delaware.gov/">Labor Market Index Delaware</a> onto our Cascade CMS enviornment from Wordpress. Extensive rewrite of React, addition of 508 accessibility, and Tableau.
@@ -12,6 +14,8 @@ Re-build of <a href="https://lmi.delaware.gov/">Labor Market Index Delaware</a> 
 Conversion of Montana's state homepage <a href="https://mt.gov/">mt.gov</a> from a .NET stack hosted on GitLab to our Cascade CMS stack.
 
 Lead the development of <a href="https://liv.mt.gov/Brands-Enforcement/Find-a-brand-inspector">Department of Livestock Brand Inspector</a> search page for our citizens. Creating an accessible search repository using DataTables, jQuery, Apache Velocity, and Cascade CMS.
+
+
 
 
 ## What I am currently working on
